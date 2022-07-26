@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imgPropA"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/ic_home"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/property_image"
+        />
+
+    <TextView
+        android:id="@+id/tvPriceA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        app:layout_constraintTop_toBottomOf="@id/imgPropA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvAddressA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        app:layout_constraintTop_toBottomOf="@id/tvPriceA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tvBedroomsA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_bed"
+        app:layout_constraintTop_toBottomOf="@id/tvAddressA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:drawablePadding="5dp"
+        android:textColor="@color/black"
+        android:text="4"
+
+        />
+    <TextView
+        android:id="@+id/tvBathroomsA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvBedroomsA"
+        app:layout_constraintLeft_toLeftOf="@id/tvBedroomsA"
+        android:drawableLeft="@drawable/ic_bath"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:drawablePadding="5dp"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/tvparkingA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvBedroomsA"
+        app:layout_constraintLeft_toLeftOf="@id/tvBathroomsA"
+        android:drawableLeft="@drawable/ic_car"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAvailabilityA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Now"
+        app:layout_constraintTop_toBottomOf="@id/tvBedroomsA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_availability"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

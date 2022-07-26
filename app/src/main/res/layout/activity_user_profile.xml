@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+
+    <TextView
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email ID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edFName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edEmail"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edLName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edFName"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edCn"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone No"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edLName"
+        android:background="@drawable/edit_text_design"
+        />
+
+
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edPass"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edCn"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edCPass"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edPass"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <android.widget.Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnUpdate"
+        app:layout_constraintTop_toBottomOf="@id/edCPass"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20sp"
+        android:textAllCaps="false"
+        android:text="Update Information"
+        android:textColor="@drawable/button_text_color"
+        android:background="@drawable/button_selector"
+        />
+    <android.widget.Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnCancel"
+        app:layout_constraintTop_toBottomOf="@id/btnUpdate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20sp"
+        android:textAllCaps="false"
+        android:text="Cancel"
+        android:textColor="@drawable/button_text_color"
+        android:background="@drawable/button_selector"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailInformationActivity">
+
+        <TextView
+            android:id="@+id/tvUserNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Property details"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/imgProp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:layout_constraintTop_toBottomOf="@id/tvUserNameTitle"
+            android:layout_marginTop="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvSizeProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/imgProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Property Size : " />
+
+        <TextView
+            android:id="@+id/tvAddressProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvSizeProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Address : "
+            />
+
+        <TextView
+            android:id="@+id/tvDescProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvAddressProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Description : " />
+
+        <TextView
+            android:id="@+id/tvAmenitiesProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvDescProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Amenities : "
+            />
+
+        <TextView
+            android:id="@+id/tvTypeProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvAmenitiesProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Type : "
+
+            />
+
+        <TextView
+            android:id="@+id/tvRentProp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvTypeProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Price : "
+
+            />
+
+        <TextView
+            android:id="@+id/tvManagedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvRentProp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Managed By : "
+
+            />
+
+        <android.widget.Button
+            android:id="@+id/btnViewContact"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:layout_constraintTop_toBottomOf="@id/tvManagedBy"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="View Contact Information"
+            android:background="@drawable/button_selector"
+            android:textColor="@drawable/button_text_color"
+            />
+
+
+
+        <android.widget.Button
+            android:id="@+id/btnBackPD"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:layout_constraintTop_toBottomOf="@id/btnViewContact"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Back"
+            android:background="@drawable/button_selector"
+            android:textColor="@drawable/button_text_color"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tvemp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=""
+            app:layout_constraintTop_toBottomOf="@id/btnBackPD"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+
+
+
+
+

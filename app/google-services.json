@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "879370916547",
+    "project_id": "eliteproperties-c2bdd",
+    "storage_bucket": "eliteproperties-c2bdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879370916547:android:4b625a643ebcf2552a4876",
+        "android_client_info": {
+          "package_name": "com.example.eliteproperties"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879370916547-8hq9nvofdplpnpr7goi9r6gk6784in0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNrvvtZhmVlERAu7VcBnb3nrhVkcjOEKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879370916547-8hq9nvofdplpnpr7goi9r6gk6784in0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

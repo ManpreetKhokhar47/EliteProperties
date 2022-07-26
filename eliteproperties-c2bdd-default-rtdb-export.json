@@ -1,0 +1,389 @@
+{
+  "Brokers": {
+    "00d1f0a3-647e-4d2c-889e-a68c918cbd20": {
+      "contactNo": "5149884125",
+      "emailId": "abhi@gmail.com",
+      "experience": "5 Years",
+      "firstName": "Abhiroop",
+      "lastName": "Singh",
+      "userId": "00d1f0a3-647e-4d2c-889e-a68c918cbd20"
+    },
+    "255d13fc-9470-4777-ba76-daed1ebedced": {
+      "contactNo": "5146332145",
+      "emailId": "sanjeev@gmail.com",
+      "experience": "3 Years",
+      "firstName": "Sanjeev",
+      "lastName": "Kumar",
+      "userId": "255d13fc-9470-4777-ba76-daed1ebedced"
+    },
+    "3096aad1-affd-4b25-a51f-191bb9794f17": {
+      "contactNo": "5146997148",
+      "emailId": "nirbhai@gmail.com",
+      "experience": "2 Years",
+      "firstName": "Nirbhai Singh",
+      "lastName": "Brar",
+      "userId": "3096aad1-affd-4b25-a51f-191bb9794f17"
+    },
+    "9373e931-12d9-4217-8a68-d1340df11b09": {
+      "contactNo": "51296321452",
+      "emailId": "sandeep@gmail.com",
+      "experience": "12 Years",
+      "firstName": "Sandeep",
+      "lastName": "Sharma",
+      "userId": "9373e931-12d9-4217-8a68-d1340df11b09"
+    },
+    "c2ede281-77ae-49f4-8778-bd3a4a420f51": {
+      "contactNo": "5123368521",
+      "emailId": "harry@gmail.com",
+      "experience": "5 Years",
+      "firstName": "Harry",
+      "lastName": "Dhillon",
+      "userId": "c2ede281-77ae-49f4-8778-bd3a4a420f51"
+    },
+    "cd01d9b6-a869-4326-ae0c-9d9fc42170e2": {
+      "contactNo": "5146997149",
+      "emailId": "sehaj@gmail.com",
+      "experience": "5 Years",
+      "firstName": "Sehaj",
+      "lastName": "Dhingra",
+      "userId": "cd01d9b6-a869-4326-ae0c-9d9fc42170e2"
+    },
+    "ebfd63d9-7e47-451c-802e-939bcd67e28a": {
+      "contactNo": "5146998521",
+      "emailId": "balkar@gmail.com",
+      "experience": "10 years",
+      "firstName": "Balkar Singh",
+      "lastName": "Dhaliwal",
+      "userId": "ebfd63d9-7e47-451c-802e-939bcd67e28a"
+    }
+  },
+  "Properties": {
+    "0d2ed14f-d3b1-470f-abea-26bc2511c102": {
+      "address": "Rue Villery",
+      "bathroomCount": "3",
+      "bedroomsCount": "2",
+      "coveredArea": "1200",
+      "desc": "Newly Renovated",
+      "lotSize": "2000",
+      "managedBy": "Owner",
+      "managerId": "8X4bL9aL9baPPOEYNewU5mfsTY02",
+      "parkingSpaces": "2",
+      "postingFor": "SellApartment",
+      "price": 599000,
+      "propType": "Apartment",
+      "propertyId": "0d2ed14f-d3b1-470f-abea-26bc2511c102",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F37927318-47f4-4e85-83fe-ef5fec908e86?alt=media&token=e0777f63-147a-4040-968c-10bd576110f2",
+      "userId": "8X4bL9aL9baPPOEYNewU5mfsTY02"
+    },
+    "0ff3ac71-fcef-4d42-88ec-a9c3293c7889": {
+      "address": "Rue Jerry, 5112",
+      "bathroomCount": "2",
+      "bedroomsCount": "3",
+      "coveredArea": "1500",
+      "desc": "Newly Built",
+      "lotSize": "2500",
+      "managedBy": "Broker",
+      "managerId": "c2ede281-77ae-49f4-8778-bd3a4a420f51",
+      "parkingSpaces": "1",
+      "postingFor": "RentHouse",
+      "price": 2000,
+      "propType": "House",
+      "propertyId": "0ff3ac71-fcef-4d42-88ec-a9c3293c7889",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F6520ec1b-b0db-4e57-9819-525eabf0e51e?alt=media&token=6c527571-533d-430c-a379-7a82eb3fcc10",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "193a7896-ea55-441b-a527-7a191dcc098e": {
+      "address": "Rue Beurling",
+      "bathroomCount": "1",
+      "bedroomsCount": "1",
+      "coveredArea": "1500",
+      "desc": "Newly built",
+      "lotSize": "1500",
+      "managedBy": "Broker",
+      "managerId": "ebfd63d9-7e47-451c-802e-939bcd67e28a",
+      "parkingSpaces": "0",
+      "postingFor": "RentApartment",
+      "price": 800,
+      "propType": "Apartment",
+      "propertyId": "193a7896-ea55-441b-a527-7a191dcc098e",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F24c4d1e0-e0d4-4389-864e-5447d1311a05?alt=media&token=b197a95a-911d-4b88-91c9-5ce99643b221",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "207c5622-2078-420d-a1c9-7ab74b5bf49d": {
+      "address": "Rue Saint catherine, 5147, Montreal",
+      "bathroomCount": "2",
+      "bedroomsCount": "3",
+      "coveredArea": "2000",
+      "desc": "Well Maintained, Newly Built",
+      "lotSize": "2000",
+      "managedBy": "Owner",
+      "managerId": "8X4bL9aL9baPPOEYNewU5mfsTY02",
+      "parkingSpaces": "1",
+      "postingFor": "SellApartment",
+      "price": 499000,
+      "propType": "Apartment",
+      "propertyId": "207c5622-2078-420d-a1c9-7ab74b5bf49d",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F8b05dd1e-b49f-4eae-867d-66dad0830cab?alt=media&token=5e70de48-be8a-4eb9-9480-ac9a7c34c44e",
+      "userId": "8X4bL9aL9baPPOEYNewU5mfsTY02"
+    },
+    "22fd17dc-36a2-4526-a0f8-520db7bf82d9": {
+      "address": "Rue 53e, Montreal, Quebec",
+      "bathroomCount": "1",
+      "bedroomsCount": "3",
+      "coveredArea": "2500",
+      "desc": "Newly built",
+      "lotSize": "2500",
+      "managedBy": "Broker",
+      "managerId": "255d13fc-9470-4777-ba76-daed1ebedced",
+      "parkingSpaces": "1",
+      "postingFor": "SellApartment",
+      "price": 500000,
+      "propType": "Apartment",
+      "propertyId": "22fd17dc-36a2-4526-a0f8-520db7bf82d9",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F2f259688-186e-4ee8-a3dd-1bf48c064e5e?alt=media&token=e37dfb53-1145-487e-aad7-e8cb41697e8b",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "3de97e95-38d6-41c2-a5c8-aeb2ae8f12a4": {
+      "address": "Rue Kinewod",
+      "bathroomCount": "2",
+      "bedroomsCount": "3",
+      "coveredArea": "2500",
+      "desc": "Renovated",
+      "lotSize": "4500",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "4",
+      "postingFor": "SellHouse",
+      "price": 699000,
+      "propType": "House",
+      "propertyId": "3de97e95-38d6-41c2-a5c8-aeb2ae8f12a4",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F8b8fedca-0c65-4cef-a19d-bf419d98fabe?alt=media&token=1d434929-f427-4767-88fc-fdaea32f8938",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "437fd313-95ea-46b9-bae3-474a9ce0c46f": {
+      "address": "Rue Sherbrrok, 5112, Montreal, Quebec",
+      "bathroomCount": "3",
+      "bedroomsCount": "5",
+      "coveredArea": "2500",
+      "desc": "Fully Furnished",
+      "lotSize": "3500",
+      "managedBy": "Owner",
+      "managerId": "8X4bL9aL9baPPOEYNewU5mfsTY02",
+      "parkingSpaces": "4",
+      "postingFor": "RentHouse",
+      "price": 2500,
+      "propType": "House",
+      "propertyId": "437fd313-95ea-46b9-bae3-474a9ce0c46f",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F29427e66-ff46-47a4-8cfc-385cc095f0c2?alt=media&token=08e788b7-8eda-4188-8e1b-09d7073991e2",
+      "userId": "8X4bL9aL9baPPOEYNewU5mfsTY02"
+    },
+    "56672c9b-a29d-4bbf-bbbc-1fdc4748b2bf": {
+      "address": "Rue Saint Michelle, 5667, Montreal, Quebec",
+      "bathroomCount": "2",
+      "bedroomsCount": "4",
+      "coveredArea": "3000",
+      "desc": "Great Condition",
+      "lotSize": "3000",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "2",
+      "postingFor": "SellApartment",
+      "price": 599000,
+      "propType": "Apartment",
+      "propertyId": "56672c9b-a29d-4bbf-bbbc-1fdc4748b2bf",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2Ffc5e7bd8-ae2c-42f7-b1f6-5144eaed81bb?alt=media&token=8db7074e-2608-4a53-a3c8-cc7052d988ee",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "7d418fa1-d858-4f6b-98e4-f281ee936d09": {
+      "address": "Rue Marot",
+      "bathroomCount": "1",
+      "bedroomsCount": "2",
+      "coveredArea": "1500",
+      "desc": "Newly Painted, Well Managed",
+      "lotSize": "3500",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "2",
+      "postingFor": "RentHouse",
+      "price": 2000,
+      "propType": "House",
+      "propertyId": "7d418fa1-d858-4f6b-98e4-f281ee936d09",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2Fd56ac48b-c0f6-4aec-9986-c6b115b5b8ba?alt=media&token=26f1d81e-b72f-4149-9971-0db499c61c66",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "a538a207-24fd-4339-b055-6c038b5bad81": {
+      "address": "Rue Robert",
+      "bathroomCount": "2",
+      "bedroomsCount": "3",
+      "coveredArea": "2000",
+      "desc": "New",
+      "lotSize": "2500",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "2",
+      "postingFor": "SellHouse",
+      "price": 449000,
+      "propType": "House",
+      "propertyId": "a538a207-24fd-4339-b055-6c038b5bad81",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F17bf3218-9f7a-41fa-92f6-438e22e8dadb?alt=media&token=468b26ea-4d07-471c-9585-e2b5ba4ae305",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "aa839653-c645-440c-a56b-18cf8847a438": {
+      "address": "Rue D'Herlle, 5330",
+      "bathroomCount": "2",
+      "bedroomsCount": "4",
+      "coveredArea": "1500",
+      "desc": "Newly Built",
+      "lotSize": "2500",
+      "managedBy": "Owner",
+      "managerId": "8X4bL9aL9baPPOEYNewU5mfsTY02",
+      "parkingSpaces": "3",
+      "postingFor": "SellHouse",
+      "price": 799000,
+      "propType": "House",
+      "propertyId": "aa839653-c645-440c-a56b-18cf8847a438",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2Ffcc987c5-51a9-468f-8d53-1370c5429354?alt=media&token=f5ccaeaf-53fe-466a-ac79-760d4e10a442",
+      "userId": "8X4bL9aL9baPPOEYNewU5mfsTY02"
+    },
+    "abee1245-6290-4b31-a5cc-d5aa7bb93ca0": {
+      "address": "Rue Robert, 5890",
+      "bathroomCount": "1",
+      "bedroomsCount": "2",
+      "coveredArea": "1500",
+      "desc": "Fully Furnished",
+      "lotSize": "1500",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "1",
+      "postingFor": "RentApartment",
+      "price": 1000,
+      "propType": "Apartment",
+      "propertyId": "abee1245-6290-4b31-a5cc-d5aa7bb93ca0",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F4c887bf9-6372-4bac-bdad-94ef24d264c2?alt=media&token=9b7b5361-04ff-4896-ae9f-3937bf3f906f",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "ec7891e6-a9d4-4c7b-9174-727c47f968dd": {
+      "address": "Rue Woodland, Ontario",
+      "bathroomCount": "2",
+      "bedroomsCount": "1",
+      "coveredArea": "1500",
+      "desc": "Newly Renovated",
+      "lotSize": "1500",
+      "managedBy": "Broker",
+      "managerId": "3096aad1-affd-4b25-a51f-191bb9794f17",
+      "parkingSpaces": "0",
+      "postingFor": "RentApartment",
+      "price": 1000,
+      "propType": "Apartment",
+      "propertyId": "ec7891e6-a9d4-4c7b-9174-727c47f968dd",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2Fdbc66d7d-c2db-4747-9993-a609c235a42d?alt=media&token=1bd73a9e-81ea-43b6-b9a6-b1eb279d60f1",
+      "userId": "8X4bL9aL9baPPOEYNewU5mfsTY02"
+    },
+    "f600b1b4-eacf-4751-a2a4-b5c5cd42b537": {
+      "address": "Rue Wasington",
+      "bathroomCount": "1",
+      "bedroomsCount": "2",
+      "coveredArea": "2500",
+      "desc": "Fully Furnished",
+      "lotSize": "2500",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "2",
+      "postingFor": "RentApartment",
+      "price": 1500,
+      "propType": "Apartment",
+      "propertyId": "f600b1b4-eacf-4751-a2a4-b5c5cd42b537",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2F0105bc8f-0af0-4563-8fbf-6314d69830b4?alt=media&token=13235e94-ea5c-4883-91b6-4c10b94e4b2c",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    },
+    "fca0b394-f8d4-4b87-960e-b9842b9932d7": {
+      "address": "Rue 48E, Montreal",
+      "bathroomCount": "4",
+      "bedroomsCount": "6",
+      "coveredArea": "3500",
+      "desc": "Large Garden, Fully renovated",
+      "lotSize": "4500",
+      "managedBy": "Owner",
+      "managerId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "parkingSpaces": "4",
+      "postingFor": "RentHouse",
+      "price": 3000,
+      "propType": "House",
+      "propertyId": "fca0b394-f8d4-4b87-960e-b9842b9932d7",
+      "srcImg": "https://firebasestorage.googleapis.com/v0/b/eliteproperties-c2bdd.appspot.com/o/images%2Fee53d8ea-6142-4476-9cf7-5721a3cf3e53?alt=media&token=09b7c6ae-f486-4a77-ac0d-853ff2c16e67",
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1"
+    }
+  },
+  "RentApartment_Apartment": {
+    "List": [
+      "abee1245-6290-4b31-a5cc-d5aa7bb93ca0",
+      "ec7891e6-a9d4-4c7b-9174-727c47f968dd",
+      "193a7896-ea55-441b-a527-7a191dcc098e",
+      "f600b1b4-eacf-4751-a2a4-b5c5cd42b537"
+    ]
+  },
+  "RentHouse_House": {
+    "List": [
+      "0ff3ac71-fcef-4d42-88ec-a9c3293c7889",
+      "437fd313-95ea-46b9-bae3-474a9ce0c46f",
+      "7d418fa1-d858-4f6b-98e4-f281ee936d09",
+      "fca0b394-f8d4-4b87-960e-b9842b9932d7"
+    ]
+  },
+  "SellApartment_Apartment": {
+    "List": [
+      "0d2ed14f-d3b1-470f-abea-26bc2511c102",
+      "207c5622-2078-420d-a1c9-7ab74b5bf49d",
+      "56672c9b-a29d-4bbf-bbbc-1fdc4748b2bf",
+      "22fd17dc-36a2-4526-a0f8-520db7bf82d9"
+    ]
+  },
+  "SellHouse_House": {
+    "List": [
+      "aa839653-c645-440c-a56b-18cf8847a438",
+      "371552b5-abdc-4783-ba54-d0ddfc31bb43",
+      "3de97e95-38d6-41c2-a5c8-aeb2ae8f12a4",
+      "a538a207-24fd-4339-b055-6c038b5bad81"
+    ]
+  },
+  "Users": {
+    "8X4bL9aL9baPPOEYNewU5mfsTY02": {
+      "contactNo": "5146997144",
+      "emailId": "danish@gmail.com",
+      "firstName": "Danish",
+      "lastName": "Gulati",
+      "password": "1234567",
+      "propertiesList": [
+        "0d2ed14f-d3b1-470f-abea-26bc2511c102",
+        "aa839653-c645-440c-a56b-18cf8847a438",
+        "ec7891e6-a9d4-4c7b-9174-727c47f968dd",
+        "437fd313-95ea-46b9-bae3-474a9ce0c46f",
+        "207c5622-2078-420d-a1c9-7ab74b5bf49d",
+        "371552b5-abdc-4783-ba54-d0ddfc31bb43"
+      ],
+      "userId": "8X4bL9aL9baPPOEYNewU5mfsTY02",
+      "userType": "Owner"
+    },
+    "rblDxOB0XmRswZYr8NiVplmmCam1": {
+      "contactNo": "5146997150",
+      "emailId": "manpreet@gmail.com",
+      "firstName": "Manpreet Singh",
+      "lastName": "Khokhar",
+      "password": "123456",
+      "propertiesList": [
+        "0ff3ac71-fcef-4d42-88ec-a9c3293c7889",
+        "abee1245-6290-4b31-a5cc-d5aa7bb93ca0",
+        "193a7896-ea55-441b-a527-7a191dcc098e",
+        "f600b1b4-eacf-4751-a2a4-b5c5cd42b537",
+        "7d418fa1-d858-4f6b-98e4-f281ee936d09",
+        "fca0b394-f8d4-4b87-960e-b9842b9932d7",
+        "56672c9b-a29d-4bbf-bbbc-1fdc4748b2bf",
+        "22fd17dc-36a2-4526-a0f8-520db7bf82d9",
+        "3de97e95-38d6-41c2-a5c8-aeb2ae8f12a4",
+        "a538a207-24fd-4339-b055-6c038b5bad81"
+      ],
+      "userId": "rblDxOB0XmRswZYr8NiVplmmCam1",
+      "userType": "Owner"
+    }
+  }
+}

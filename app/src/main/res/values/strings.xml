@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Elite Properties</string>
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <string name="AddProperty">Enter Property Details</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the\nTerms and Conditions.</string>
+    <string name="property_image">Property Image</string>
+
+    <string-array name="parkingSpacesArray">
+        <item>Parking Spaces</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>>5</item>
+
+    </string-array>
+
+
+</resources>

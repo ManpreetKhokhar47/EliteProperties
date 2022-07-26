@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edFirstName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSignUp"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edLastName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edFirstName"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edContactNo"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone No"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edLastName"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edEmailId"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email Id"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edContactNo"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edPassword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edEmailId"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edConfPass"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edPassword"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgLoginType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/edConfPass"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/rbBuyer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="I'm a Buyer"
+            android:layout_marginRight="5dp"
+            android:buttonTint="@color/black"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rbOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="I'm an Owner"
+            android:layout_marginLeft="5dp"
+            android:buttonTint="@color/black"
+            />
+    </RadioGroup>
+
+
+
+    <CheckBox
+        android:id="@+id/term_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/terms_conditions"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:paddingLeft="10dp"
+        android:buttonTint="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/rgLoginType" />
+
+    <android.widget.Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnRegister"
+        app:layout_constraintTop_toBottomOf="@id/term_condition"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20sp"
+        android:textAllCaps="false"
+        android:text="Register Me"
+        android:textColor="@drawable/button_text_color"
+        android:background="@drawable/button_selector"
+        />
+    <TextView
+        android:id="@+id/tvAccountExist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an Account ? Login Here"
+
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRegister"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

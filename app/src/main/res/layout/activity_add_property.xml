@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editot_absolutey="0dp"
+    tools:context=".AddPropertyActivity">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddPropertyActivity">
+
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edLotSize"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Lot Size (sq feet)"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edCoveredArea"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Covered Area (sq feet)"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edLotSize"
+        android:background="@drawable/edit_text_design"
+        />
+
+
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edBedrooms"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="No. of Bedrooms"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edCoveredArea"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edBathrooms"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="No. of Bathrooms"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edBedrooms"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <Spinner
+        android:id="@+id/edParkingSpaces"
+        style="@style/edSignUpStyle"
+        android:background="@drawable/edit_text_design"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edBathrooms"
+
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edPrice"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edParkingSpaces"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        style="@style/edSignUpStyle"
+        android:id="@+id/edPropAddress"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Address"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edPrice"
+        android:background="@drawable/edit_text_design"
+        />
+
+    <EditText
+        android:id="@+id/edDesc"
+        style="@style/edSignUpStyle"
+        android:background="@drawable/edit_text_design"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="text|textMultiLine"
+        android:layout_height="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edPropAddress" />
+
+    <TextView
+        android:id="@+id/tvPropType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Property Type"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edDesc"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/rgPropType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvPropType"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbHouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House"
+            android:buttonTint="@color/black"
+            android:layout_marginRight="20dp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rbBasement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basement"
+            android:buttonTint="@color/black"
+            android:layout_marginRight="20dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbApartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:text="Apartment" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgProperty"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rgPropType"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_baseline_image_24"
+        style="@style/edSignUpStyle"
+        />
+
+    <TextView
+        android:id="@+id/tvPostingFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posting For"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgProperty"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/rgPropFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvPostingFor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbForSell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Sell"
+            android:buttonTint="@color/black"
+            android:layout_marginRight="20dp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rbForRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Rent"
+            android:buttonTint="@color/black"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RadioGroup>
+
+
+    <android.widget.Button
+        android:id="@+id/btnRegister"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20sp"
+        android:textAllCaps="false"
+        android:text="Add Property"
+        android:textColor="@drawable/button_text_color"
+        android:background="@drawable/button_selector"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/rgPropFor"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tvemplty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRegister"
+
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
